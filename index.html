@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xplorer Co. — Travel Agency</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="logo-mark"><span>X</span>plorer</div>
+          <span class="logo-sub">Travel Co. — Est. 2014</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn-primary-wl" href="#contact">Plan a Trip</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <div class="container position-relative">
+      <div class="row align-items-center gy-5">
+
+        <div class="col-lg-6">
+          <p class="hero-eyebrow">Award-winning travel agency</p>
+          <h1 class="hero-title">
+            The world<br>is waiting.<br><em>Are you?</em>
+          </h1>
+          <p class="hero-desc">
+            Xplorer Co. crafts bespoke journeys to the world's most extraordinary corners —
+            from ancient temples to open Arctic skies. Every trip, a story only you can tell.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#destinations" class="btn-primary-wl">Explore Destinations</a>
+            <a href="#contact" class="btn-outline-wl">Talk to an Expert</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 d-none d-md-flex justify-content-center">
+          <div class="fan-stack">
+
+            <div class="fan-card fan-card--3">
+              <div class="fan-card-inner">
+                <div class="fan-front">
+                  <img src="images/Mushkpuri.jpg" alt="Mushkpuri Top" />
+                  <div class="fan-grad"></div>
+                  <div class="fan-front-body">
+                    <span class="fan-pill">Abbottabad</span>
+                    <div class="fan-front-title">MUSHKPURI TOP</div>
+                  </div>
+                </div>
+                <div class="fan-back">
+                  <i class="bi bi-flower1 fan-back-icon"></i>
+                  <div class="fan-back-label">Abbottabad</div>
+                  <div class="fan-back-title">MUSHKPURI TOP</div>
+                  <p class="fan-back-text">Standing above the clouds with breathtaking views and endless serenity. With
+                    every step along its trail, nature unfolds a new masterpiece.</p>
+                  <a href="#contact" class="fan-back-btn">Book from Rs 10,000</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="fan-card fan-card--2">
+              <div class="fan-card-inner">
+                <div class="fan-front">
+                  <img src="images/kajri.jpg" alt="Kajri Lake" />
+                  <div class="fan-grad"></div>
+                  <div class="fan-front-body">
+                    <span class="fan-pill">Khyber Pakhtunkhwa</span>
+                    <div class="fan-front-title">KAJRI LAKE</div>
+                  </div>
+                </div>
+                <div class="fan-back">
+                  <i class="bi bi-globe2 fan-back-icon"></i>
+                  <div class="fan-back-label">Khyber Pakhtunkhwa</div>
+                  <div class="fan-back-title">KAJRI LAKE</div>
+                  <p class="fan-back-text">Kajri Lake glows like a sapphire hidden among Swat's majestic peaks — where
+                    the mountains whisper and the soul finds peace.</p>
+                  <a href="#contact" class="fan-back-btn">Book from Rs 32,000</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="fan-card fan-card--1">
+              <div class="fan-card-inner">
+                <div class="fan-front">
+                  <img src="images/hunza.jpg" alt="Hunza Valley" />
+                  <div class="fan-grad"></div>
+                  <div class="fan-front-body">
+                    <span class="fan-pill">Gilgit-Baltistan</span>
+                    <div class="fan-front-title">HUNZA</div>
+                    <div class="fan-hint"><i class="bi bi-cursor"></i> Hover me</div>
+                  </div>
+                </div>
+                <div class="fan-back">
+                  <i class="bi bi-compass fan-back-icon"></i>
+                  <div class="fan-back-label">Gilgit-Baltistan</div>
+                  <div class="fan-back-title">HUNZA VALLEY</div>
+                  <p class="fan-back-text">Snow-capped peaks meet endless skies and timeless beauty. Every corner of
+                    Hunza feels like a postcard brought to life.</p>
+                  <a href="#contact" class="fan-back-btn">Book from $1,299</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="stats-band">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3 stat-item">
+          <div class="num" data-target="78" data-suffix="+">1</div>
+          <div class="label">Destinations covered</div>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <div class="num" data-target="14" data-suffix="K">1</div>
+          <div class="label">Happy travellers</div>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <div class="num" data-target="10" data-suffix="">1</div>
+          <div class="label">Years of expertise</div>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <div class="num" data-target="4.9" data-suffix="" data-decimal="1">1</div>
+          <div class="label">Average rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="destinations">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-7">
+          <p class="section-label">Featured destinations</p>
+          <h2 class="section-title">Places that stay<br>with you forever</h2>
+          <div class="divider-amber"></div>
+          <p class="section-lead">Handpicked by our travel specialists — each destination chosen for its depth, its
+            beauty, and the memories only being there can make.</p>
+        </div>
+      </div>
+
+      <div class="row g-4 mb-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="dest-card card">
+            <div class="card-img-wrap">
+              <img src="images/malam jabba.jpg" alt="Malam Jabba" loading="lazy" />
+              <span class="region-tag">Pakistan</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Malam Jabba</h3>
+              <p class="card-text">Perched among the rolling peaks of Swat, Malam Jabba is a place where adventure and
+                serenity coexist. Wander through fragrant pine forests and let the mountains slow the pace of time.</p>
+            </div>
+            <div class="card-footer-wl">
+              <div class="price">$1,299 <small>per person, 7 nights</small></div>
+              <a href="#contact" class="card-link-wl">Book now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="dest-card card">
+            <div class="card-img-wrap">
+              <img src="images/china border.jpg" alt="Khunjerab Pass" loading="lazy" />
+              <span class="region-tag">China Border · Pakistan</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Khunjerab Pass</h3>
+              <p class="card-text">At the edge of Pakistan, where rugged peaks stretch toward China. Marvel at
+                snow-capped summits and travel along the legendary Karakoram Highway.</p>
+            </div>
+            <div class="card-footer-wl">
+              <div class="price">$1,850 <small>per person, 10 nights</small></div>
+              <a href="#contact" class="card-link-wl">Book now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="dest-card card">
+            <div class="card-img-wrap">
+              <img src="images/k2.jpg" alt="K2" loading="lazy" />
+              <span class="region-tag">Gilgit-Baltistan</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">K2 — 2nd Highest Peak</h3>
+              <p class="card-text">Deep within the Karakoram Range, K2 pierces the sky with unmatched majesty. Vast
+                glaciers, rugged wilderness — it embodies both beauty and resilience.</p>
+            </div>
+            <div class="card-footer-wl">
+              <div class="price">$2,100 <small>per person, 8 nights</small></div>
+              <a href="#contact" class="card-link-wl">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="dest-card card">
+            <div class="card-img-wrap" style="height:280px">
+              <img src="images/kashmir.jpg" alt="Peer Panjal" loading="lazy" />
+              <span class="region-tag">Kashmir</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Peer Panjal</h3>
+              <p class="card-text">Stretching across the heart of Kashmir — emerald forests, alpine pastures, and
+                snow-draped summits. Follow winding mountain roads and discover a beauty that feels both wild and
+                timeless.</p>
+            </div>
+            <div class="card-footer-wl">
+              <div class="price">$2,450 <small>per person, 12 nights</small></div>
+              <a href="#contact" class="card-link-wl">Book now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="dest-card card">
+            <div class="card-img-wrap" style="height:280px">
+              <img src="images/babusar top.jpg" alt="Babusar Top" loading="lazy" />
+              <span class="region-tag">Khyber Pakhtunkhwa</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Babusar Top</h3>
+              <p class="card-text">High above the valleys of northern Pakistan, Babusar Top unfolds a panorama of rugged
+                peaks, alpine meadows, and endless skies. Babusar doesn't just offer a view — it offers a sense of
+                freedom.</p>
+            </div>
+            <div class="card-footer-wl">
+              <div class="price">$3,200 <small>per person, 9 nights</small></div>
+              <a href="#contact" class="card-link-wl">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+
+        <div class="col-lg-5">
+          <p class="section-label">Get in touch</p>
+          <h2 class="section-title">Start planning<br>your journey</h2>
+          <div class="divider-amber"></div>
+          <p class="section-lead">Tell us where you've always wanted to go. Our travel specialists will design an
+            itinerary that fits your time, budget, and idea of adventure.</p>
+          <div class="mt-4">
+            <div class="contact-icon-item">
+              <div class="contact-icon-wrap"><i class="bi bi-clock"></i></div>
+              <div>
+                <div class="contact-info-label">Response time</div>
+                <div class="contact-info-value">Within 24 hours</div>
+              </div>
+            </div>
+            <div class="contact-icon-item">
+              <div class="contact-icon-wrap"><i class="bi bi-telephone"></i></div>
+              <div>
+                <div class="contact-info-label">Phone</div>
+                <div class="contact-info-value">+1 (800) 555-WANDER</div>
+              </div>
+            </div>
+            <div class="contact-icon-item">
+              <div class="contact-icon-wrap"><i class="bi bi-envelope"></i></div>
+              <div>
+                <div class="contact-info-label">Email</div>
+                <div class="contact-info-value">hello@xploreco.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="form-wrap">
+            <div class="row g-0">
+              <div class="col-md-6 pe-md-2">
+                <div class="form-group-wl">
+                  <label class="form-label-wl" for="firstName">First Name</label>
+                  <input type="text" id="firstName" class="form-control-wl" placeholder="Raiba" />
+                </div>
+              </div>
+              <div class="col-md-6 ps-md-2">
+                <div class="form-group-wl">
+                  <label class="form-label-wl" for="lastName">Last Name</label>
+                  <input type="text" id="lastName" class="form-control-wl" placeholder="Ayub" />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group-wl">
+                  <label class="form-label-wl" for="email">Email Address</label>
+                  <input type="email" id="email" class="form-control-wl" placeholder="you@example.com" />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group-wl">
+                  <label class="form-label-wl" for="phone">Phone Number</label>
+                  <input type="tel" id="phone" class="form-control-wl" placeholder="+92 300 0000000" />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group-wl">
+                  <label class="form-label-wl" for="message">Your Message</label>
+                  <textarea id="message" class="form-control-wl"
+                    placeholder="Tell us about your dream destination, travel dates, number of travellers, and any special requests…"></textarea>
+                </div>
+              </div>
+              <div class="col-12 mt-1">
+                <button type="button" class="btn-primary-wl w-100 text-center"
+                  style="cursor:pointer;font-size:0.82rem;padding:1rem;">
+                  Send My Query &nbsp;<i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-logo">
+            <div class="logo-mark"><span>X</span>plorer</div>
+            <span class="logo-sub">Travel Co. — Est. 2014</span>
+          </div>
+          <p class="footer-tagline">Crafting extraordinary journeys for curious souls since 2014. The world is closer
+            than you think.</p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <p class="footer-heading">Navigation</p>
+          <ul class="footer-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <p class="footer-heading">Top Picks</p>
+          <ul class="footer-nav">
+            <li><a href="#destinations">Malam Jabba</a></li>
+            <li><a href="#destinations">Khunjerab</a></li>
+            <li><a href="#destinations">K2</a></li>
+            <li><a href="#destinations">Peer Panjal</a></li>
+            <li><a href="#destinations">Babusar Top</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <p class="footer-heading">Find Us</p>
+          <div class="footer-contact-item"><i class="bi bi-envelope"></i><span>hello@xploreco.com</span></div>
+          <div class="footer-contact-item"><i class="bi bi-telephone"></i><span>+1 (800) 555-XPLORE</span></div>
+          <div class="footer-contact-item"><i class="bi bi-geo-alt"></i><span>14 Gulberg, Lahore<br>Pakistan</span>
+          </div>
+          <div class="footer-contact-item"><i class="bi bi-clock"></i><span>Mon–Fri, 9 AM – 7 PM EST</span></div>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="row align-items-center">
+        <div class="col-md-6 footer-copy">&copy; 2026 Xplorer Co. All rights reserved.</div>
+        <div class="col-md-6 text-md-end mt-2 mt-md-0">
+          <div class="d-flex gap-3 justify-content-md-end">
+            <a href="#" style="color:var(--mist);font-size:1.1rem;transition:color 0.2s"
+              onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='var(--mist)'"><i
+                class="bi bi-instagram"></i></a>
+            <a href="#" style="color:var(--mist);font-size:1.1rem;transition:color 0.2s"
+              onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='var(--mist)'"><i
+                class="bi bi-facebook"></i></a>
+            <a href="#" style="color:var(--mist);font-size:1.1rem;transition:color 0.2s"
+              onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='var(--mist)'"><i
+                class="bi bi-twitter-x"></i></a>
+            <a href="#" style="color:var(--mist);font-size:1.1rem;transition:color 0.2s"
+              onmouseover="this.style.color='var(--white)'" onmouseout="this.style.color='var(--mist)'"><i
+                class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
